@@ -1,0 +1,13 @@
+node_modules/
+**/node_modules/
+**/dist/
+**/.vite/
+**/.turbo/
+.DS_Store
+.env
+.env.local
+.env.*.local
+.azure
+
+**/.playwright-cli/
+**/.playwright-mcp/
