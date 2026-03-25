@@ -1,7 +1,8 @@
 I want to build a fast guest check-in web app that captures first name, last name, and an webcam photo.
 
-- the initial screen should always show the camera feed
-- once a guest is successfully checked in, the UI should show a success state and show a sign in new guest button that resets the flow
-- once successful only the successful screen should be shown, the form and camera should be hidden until the user clicks the sign in new guest button
+- the initial screen should always show the camera feed in the middle of the screen
+- on right side of the screen, there should be a form to enter first name and last name, and a check in button
+- on the left it should show all the guests that have been checked in during the current day, with their name and photo and the ability to click and sign out guests (which removes them from the checked in list)
+- once a guest is successfully checked in, the UI should reset and show a success message and add the guest to the checked in list on the left.
+
 - I want all information to be stored locally in the browser using IndexedDB.
-- Refer to my wireframe docs\my-idea\sketch.jpeg for the UI wireframe. You must follow the wireframe closely, but you can make adjustments as needed to achieve the functionality described above.
