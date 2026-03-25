@@ -1,5 +1,5 @@
-import { HomePage } from "@/features/home/home-page";
+import { GuestCheckinPage } from "@/features/guest-checkin/guest-checkin-page";
 
 export default function Home() {
-  return <HomePage />;
+  return <GuestCheckinPage />;
 }
