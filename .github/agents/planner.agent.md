@@ -62,9 +62,10 @@ Once context is clear, draft a comprehensive implementation plan.
 The plan should reflect:
 
 - Structured concise enough to be scannable and detailed enough for effective execution
-- Step-by-step implementation with explicit dependencies — mark which steps can run in parallel vs. which block on prior steps
-- For plans with many steps, group into named phases that are each independently verifiable. Each phase should be clearly defined within its own title and steps, with explicit dependencies or parallelism noted
+- Plan should be organized into named phases by functionality or logical grouping. Each phase should be clearly defined within its own title and Step-by-step implementation with explicit dependencies.
+  - mark which steps can run in parallel vs. which block on prior steps, with explicit dependencies or parallelism noted
 - Verification steps for validating the implementation, both automated and manual
+- For each implementation step, reference the skills in `.github\skills` for project-specific best practices and patterns and reference it to be part of the implementation step.
 - Critical architecture to reuse or use as reference — reference specific functions, types, or patterns, not just file names
 - Critical files to be modified (with full paths)
 - Explicit scope boundaries — what's included and what's deliberately excluded
